@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+/* This is the Navigation Bar */
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 9px;
+  }
+
+.navbar li {
+    display: inline;
+    padding: 9px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: 300;
+}
+
+.profile { 
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    margin-right: 20px;
+    float: right;
+}
+
+.app { 
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    padding: 9px;
+    opacity: .70;
+    float: right;
+}
+
+/* This is the Logo */
+
+.logo {
+    display: block;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.logo-image {
+    height: 92px;
+}
+
+/* This is the Search Bar */
+
+.searchbar {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: auto;
+    width: 550px;
+}
+
+.searchbar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.glass {
+    background-image: url("../google-homepage/magnifying-glass-1976105_1280.png");
+    height: 20px;
+    width: 20px;
+    background-size: 20px;
+    vertical-align: middle;
+    margin: auto;
+    margin-left: 14px;
+    margin-right: 13px;
+    opacity: 0.6;
+
+}
+
+.search {
+    background-color: transparent;
+    border: none;
+    margin: auto;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    background-color: white;
+    cursor: text;
+}
+
+/* This is the Submit Button */
+
+.button  {
+    text-decoration: none !important;
+    text-align: center;
+    padding: 12px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: rgb(95, 99, 104);
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0px 4px 0 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 10px;
+    display: inline-block;
+}
+
+.submit-button {
+    top: 53px;
+    width: 487px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.submit-button .button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+/* This is the Footer */
+
+.footer { 
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    background: #f2f2f2;
+    list-style-type: none;
+    color: rgba(0,0,0,.54);
+}
+
+#ftopbar {
+    color: rgba(0,0,0,.54);
+    padding-left: 30px;
+    font-size: 15px;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+}
+
+#fbotbar {
+    font-size: 13px;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+    list-style-type: none;
+}
+
+#fbotbar a {
+    padding-left: 30px;
+    color: rgba(0,0,0,.54);
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: 300;
+}
+
+#fbotbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 18px;
+
+
+
+/* 
+
+- Add the top right elements.
+- Push through to Git. 
+- Try to tidy up Stylesheet.
+- See whats next.
+
+*/
